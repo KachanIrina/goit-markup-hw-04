@@ -124,15 +124,6 @@ body {
     color: var(--accent-color);
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-    color: var(--accent-color);
-}
-
-.auth-nav .icon:hover{
-    fill: var(--accent-color);
-}
-
 .icon {
     margin-right: 10px;
 }
@@ -140,6 +131,11 @@ body {
 .connection {
     display: flex;
     align-items: center;
+}
+
+.page .link:hover {
+    color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 /* hero */
